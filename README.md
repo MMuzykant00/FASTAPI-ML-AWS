@@ -3,6 +3,20 @@
 ## 📌 Overview  
 This project is a **FastAPI-based Machine Learning API** for binary classification. It uses **Docker** for containerization and is deployed on **AWS EC2** for scalability.  
 
+## 🏷️ About the Dataset (`coupon.csv`)  
+
+The model is trained on **`coupon.csv`**, a well-known dataset from Kaggle. The goal is to **predict whether a customer will use a discount coupon or not** based on multiple factors such as:  
+- Age, gender, income  
+- Type of coupon (e.g., restaurant, bar, coffee shop)  
+- Context (weekday vs. weekend, time of day)  
+
+This is a **binary classification task**, where the model predicts:  
+- `1` → The customer **will use** the coupon  
+- `0` → The customer **will not use** the coupon  
+
+The deployed API allows users to send feature inputs and get a **real-time prediction** on whether a coupon will be redeemed.  
+
+---
 **Tech Stack:** FastAPI | Docker | AWS EC2  
 
 ---
