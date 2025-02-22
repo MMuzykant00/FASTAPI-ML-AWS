@@ -16,7 +16,7 @@ This project is a **FastAPI-based Machine Learning API** for binary classificati
 git clone https://github.com/MMuzykant00/fastapi-ml-aws.git
 cd fastapi-ml-aws
 
-### 2 Clone the Repository  
+### 2 Build and Run Locally
 
 docker build -t fastapi-ml-api .
 docker run -p 8000:8000 fastapi-ml-api
