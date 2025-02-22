@@ -32,7 +32,7 @@ cd fastapi-ml-aws
 
 ### 2 Build and Run Locally
 
-docker build -t fastapi-ml-api .
+docker build -t fastapi-ml-aws .
 docker run -p 8000:8000 fastapi-ml-api
 
 ### 3 Deployment on AWS
@@ -40,7 +40,7 @@ docker run -p 8000:8000 fastapi-ml-api
 ssh -i "fastapi-key.pem" ubuntu@51.20.60.81
 
 git pull origin main
-docker build -t fastapi-ml-api .
+docker build -t fastapi-ml-aws .
 docker run -d -p 8000:8000 fastapi-ml-api
 
 
