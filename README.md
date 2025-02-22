@@ -2,7 +2,6 @@
 
 ## 📌 Overview  
 This project is a **FastAPI-based Machine Learning API** for binary classification. It uses **Docker** for containerization and is deployed on **AWS EC2** for scalability.  
-
 ![FastAPI ML API](gif/Animation.gif)
 ## 🏷️ About the Dataset (`coupon.csv`)  
 
