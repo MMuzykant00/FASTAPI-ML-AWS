@@ -65,15 +65,3 @@ docker run -d -p 8000:8000 fastapi-ml-api
 
 Visit: http://51.20.60.81:8000/docs
 
-
-
-
-
-
-
-
-
-
-
-
-
