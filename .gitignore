@@ -1,4 +1,3 @@
-echo "
 # Ignore compiled Python files
 __pycache__/
 *.pyc
@@ -21,4 +20,3 @@ Thumbs.db
 # Ignore IDE/editor files
 .vscode/
 .idea/
-" > .gitignore
